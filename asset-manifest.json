@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/riteshahire2002/FOODie/static/css/main.5a5dca55.css",
+    "main.js": "/riteshahire2002/FOODie/static/js/main.15ffb1b1.js",
+    "index.html": "/riteshahire2002/FOODie/index.html",
+    "main.5a5dca55.css.map": "/riteshahire2002/FOODie/static/css/main.5a5dca55.css.map",
+    "main.15ffb1b1.js.map": "/riteshahire2002/FOODie/static/js/main.15ffb1b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a5dca55.css",
+    "static/js/main.15ffb1b1.js"
+  ]
+}
