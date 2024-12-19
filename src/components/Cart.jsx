@@ -4,7 +4,9 @@ import { AiFillDelete } from "react-icons/ai";
 import { useDispatch, useSelector } from "react-redux";
 
 const Cart = () => {
-  const { cartItems,subTotal,tax,shipping,total } = useSelector((state) => state.cart);
+  const { cartItems, subTotal, tax, shipping, total } = useSelector(
+    (state) => state.cart
+  );
   const dispatch = useDispatch();
 
   const increment = (id) => {
@@ -12,8 +14,7 @@ const Cart = () => {
       type: "addToCart",
       payload: { id },
     });
-    dispatch({type: "calculatePrice"});
-
+    dispatch({ type: "calculatePrice" });
   };
   const decrement = (id) => {
     dispatch({
@@ -21,8 +22,7 @@ const Cart = () => {
       payload: id,
     });
 
-    dispatch({type: "calculatePrice"});
-
+    dispatch({ type: "calculatePrice" });
   };
   const deleteHandler = (id) => {
     dispatch({
@@ -30,8 +30,7 @@ const Cart = () => {
       payload: id,
     });
 
-    dispatch({type: "calculatePrice"});
-
+    dispatch({ type: "calculatePrice" });
   };
   return (
     <div className="cart">
@@ -55,10 +54,10 @@ const Cart = () => {
         )}
       </main>
       <aside>
-        <h2>Subtotal: ${subTotal}</h2>
-        <h2>Shipping: ${shipping}</h2>
-        <h2>Tax: ${tax}</h2>
-        <h2>Total: ${total}</h2>
+        <h2>Subtotal: ₹{subTotal}</h2>
+        <h2>Shipping: ₹{shipping}</h2>
+        <h2>Tax: ₹ {tax}</h2>
+        <h2>Total: ₹ {total}</h2>
       </aside>
     </div>
   );
@@ -77,7 +76,7 @@ const CartItem = ({
     <img src={imgSrc} alt="Item" />
     <article>
       <h3>{name}</h3>
-      <p>${price}</p>
+      <p>₹ {price}</p>
     </article>
 
     <div>
