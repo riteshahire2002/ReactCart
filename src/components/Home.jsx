@@ -10,11 +10,11 @@ const img2 =
 const img3 =
   "https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80";
 const img4 =
-  "https://img.freepik.com/free-photo/front-view-tasty-meat-burger-with-cheese-salad-dark-background_140725-89597.jpg?t=st=1734624232~exp=1734627832~hmac=96c44da758685d03bd14005957208cd6557b82a4614aca52d11047e8d0543454&w=996";
+  "https://images.unsplash.com/photo-1520072959219-c595dc870360?q=80&w=1890&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
 const img5 =
-  "https://img.freepik.com/free-photo/crispy-french-fries-with-ketchup-mayonnaise_1150-26588.jpg?t=st=1734624505~exp=1734628105~hmac=b2303270bacf32c438622fb1ec5589ab66d46a77a022366ea970bb246124431b&w=996";
+  "https://www.jagranimages.com/images/newimg/khanakhazana/02_2024-french_fries_recipe.webp";
 const img6 =
-  "https://img.freepik.com/free-photo/grilled-sandwich-with-bacon-fried-egg-tomato-lettuce-served-wooden-cutting-board_1150-42571.jpg?t=st=1734624842~exp=1734628442~hmac=4a740fffd83594084cd7c9ad9e60853557fd3cc0e86675d8c3f404fbced02b14&w=996";
+  "https://static.vecteezy.com/system/resources/thumbnails/044/179/737/small_2x/two-sandwiches-with-a-side-of-salad-and-a-bowl-of-sauce-photo.jpeg";
 const img7 =
   "https://img.freepik.com/free-photo/fresh-fruity-dessert-wooden-table-generated-by-ai_188544-19761.jpg?t=st=1734625018~exp=1734628618~hmac=aa8356d1a2e0a3a65e90a6531f04fc3ea60172ae2726f14e3eaa5ea1a78141c3&w=1060";
 const img8 =
